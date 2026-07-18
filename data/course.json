@@ -1,0 +1,1384 @@
+{
+  "course": {
+    "title": "Election Observer Russian",
+    "subtitle": "OSCE/ODIHR field vocabulary, English ↔ Russian",
+    "heroEyebrow": "ELECTION OBSERVATION · EN ↔ RU",
+    "heroNative": "Словарь наблюдателя",
+    "heroLedeSuffix": "Real terminology from election-day procedure, legal framework, and reporting — the words you'll actually hear on a mission.",
+    "levels": [
+      {
+        "id": "l1",
+        "badge": "I",
+        "label": "Foundations",
+        "labelNative": "Основы",
+        "lessons": [
+          {
+            "id": "l1-1",
+            "number": 1,
+            "title": "Basic Election Terms",
+            "titleNative": "Основные термины",
+            "description": "Core vocabulary: elections, voters, ballots",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Выборы пройдут в следующее воскресенье.",
+                "options": [
+                  "Voting begins at eight o'clock in the morning.",
+                  "The ballot box was sealed before the station opened.",
+                  "The election will take place next Sunday.",
+                  "Every voter votes in person."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Every voter has the right to vote once.",
+                "bank": [
+                  "проголосовать",
+                  "один",
+                  "избиратель",
+                  "раз",
+                  "право",
+                  "Каждый",
+                  "имеет"
+                ],
+                "answer": [
+                  "Каждый",
+                  "избиратель",
+                  "имеет",
+                  "право",
+                  "проголосовать",
+                  "один",
+                  "раз"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Бюллетень нужно опустить в урну для голосования.",
+                "options": [
+                  "Voter turnout was higher than in the previous election.",
+                  "The ballot must be placed in the ballot box.",
+                  "Every voter has the right to vote once.",
+                  "The candidate gave a speech before the voting."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Two thousand voters are registered at this polling station.",
+                "bank": [
+                  "этом",
+                  "На",
+                  "зарегистрировано",
+                  "тысячи",
+                  "избирателей",
+                  "две",
+                  "участке",
+                  "избирательном"
+                ],
+                "answer": [
+                  "На",
+                  "этом",
+                  "избирательном",
+                  "участке",
+                  "зарегистрировано",
+                  "две",
+                  "тысячи",
+                  "избирателей"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Кандидат выступил с речью перед голосованием.",
+                "options": [
+                  "Two thousand voters are registered at this polling station.",
+                  "Voter turnout was higher than in the previous election.",
+                  "The voting booth ensures the secrecy of the vote.",
+                  "The candidate gave a speech before the voting."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Voter turnout was higher than in the previous election.",
+                "bank": [
+                  "прошлых",
+                  "выборах",
+                  "была",
+                  "Явка",
+                  "на",
+                  "выше",
+                  "чем",
+                  "избирателей"
+                ],
+                "answer": [
+                  "Явка",
+                  "избирателей",
+                  "была",
+                  "выше",
+                  "чем",
+                  "на",
+                  "прошлых",
+                  "выборах"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Наблюдатели прибыли на участок рано утром.",
+                "options": [
+                  "The ballot contains the names of all candidates.",
+                  "The candidate gave a speech before the voting.",
+                  "The voting booth ensures the secrecy of the vote.",
+                  "The observers arrived at the polling station early in the morning."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Voting begins at eight o'clock in the morning.",
+                "bank": [
+                  "в",
+                  "Голосование",
+                  "восемь",
+                  "начинается",
+                  "часов",
+                  "утра"
+                ],
+                "answer": [
+                  "Голосование",
+                  "начинается",
+                  "в",
+                  "восемь",
+                  "часов",
+                  "утра"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Урна для голосования была опечатана перед открытием участка.",
+                "options": [
+                  "The ballot box was sealed before the station opened.",
+                  "The observers arrived at the polling station early in the morning.",
+                  "The election will take place next Sunday.",
+                  "Every voter has the right to vote once."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The ballot contains the names of all candidates.",
+                "bank": [
+                  "всех",
+                  "Избирательный",
+                  "содержит",
+                  "имена",
+                  "бюллетень",
+                  "кандидатов"
+                ],
+                "answer": [
+                  "Избирательный",
+                  "бюллетень",
+                  "содержит",
+                  "имена",
+                  "всех",
+                  "кандидатов"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Голосование является тайным и добровольным.",
+                "options": [
+                  "The voting booth ensures the secrecy of the vote.",
+                  "The ballot box was sealed before the station opened.",
+                  "Voting is secret and voluntary.",
+                  "Two thousand voters are registered at this polling station."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The citizen presented a passport before receiving the ballot.",
+                "bank": [
+                  "предъявил",
+                  "Гражданин",
+                  "перед",
+                  "бюллетеня",
+                  "паспорт",
+                  "получением"
+                ],
+                "answer": [
+                  "Гражданин",
+                  "предъявил",
+                  "паспорт",
+                  "перед",
+                  "получением",
+                  "бюллетеня"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Кабина для голосования обеспечивает тайну волеизъявления.",
+                "options": [
+                  "Voting begins at eight o'clock in the morning.",
+                  "The ballot box was sealed before the station opened.",
+                  "The ballot contains the names of all candidates.",
+                  "The voting booth ensures the secrecy of the vote."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The station will close at exactly eight o'clock in the evening.",
+                "bank": [
+                  "в",
+                  "восемь",
+                  "часов",
+                  "ровно",
+                  "закроется",
+                  "Участок",
+                  "вечера"
+                ],
+                "answer": [
+                  "Участок",
+                  "закроется",
+                  "ровно",
+                  "в",
+                  "восемь",
+                  "часов",
+                  "вечера"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Каждый избиратель голосует лично.",
+                "options": [
+                  "The citizen presented a passport before receiving the ballot.",
+                  "Every voter votes in person.",
+                  "The election will take place next Sunday.",
+                  "The observers arrived at the polling station early in the morning."
+                ],
+                "answerIndex": 1
+              }
+            ]
+          },
+          {
+            "id": "l1-2",
+            "number": 2,
+            "title": "The Election Commission",
+            "titleNative": "Избирательная комиссия",
+            "description": "Vocabulary for election commissions and their members",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Центральная избирательная комиссия отвечает за организацию выборов.",
+                "options": [
+                  "The precinct election commission consists of seven members.",
+                  "The territorial election commission coordinates the work of polling stations.",
+                  "The Central Election Commission is responsible for organizing elections.",
+                  "The commission published the preliminary voting results."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The chairperson of the commission opened the meeting at nine o'clock.",
+                "bank": [
+                  "заседание",
+                  "в",
+                  "часов",
+                  "открыл",
+                  "девять",
+                  "Председатель",
+                  "комиссии"
+                ],
+                "answer": [
+                  "Председатель",
+                  "комиссии",
+                  "открыл",
+                  "заседание",
+                  "в",
+                  "девять",
+                  "часов"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Участковая избирательная комиссия состоит из семи членов.",
+                "options": [
+                  "The commission ensures compliance with electoral legislation.",
+                  "The Central Election Commission is responsible for organizing elections.",
+                  "The deputy chairperson temporarily performed the duties of the chairperson.",
+                  "The precinct election commission consists of seven members."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The commission's secretary keeps the minutes of the meeting.",
+                "bank": [
+                  "ведёт",
+                  "комиссии",
+                  "заседания",
+                  "протокол",
+                  "Секретарь"
+                ],
+                "answer": [
+                  "Секретарь",
+                  "комиссии",
+                  "ведёт",
+                  "протокол",
+                  "заседания"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Члены комиссии подсчитали голоса после закрытия участка.",
+                "options": [
+                  "The deputy chairperson temporarily performed the duties of the chairperson.",
+                  "The commission reviewed a complaint from the candidate's representative.",
+                  "The commission members counted the votes after the station closed.",
+                  "Each party has the right to send its representative to the commission."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The commission decided to extend the voting time.",
+                "bank": [
+                  "голосования",
+                  "приняла",
+                  "времени",
+                  "решение",
+                  "продлении",
+                  "Комиссия",
+                  "о"
+                ],
+                "answer": [
+                  "Комиссия",
+                  "приняла",
+                  "решение",
+                  "о",
+                  "продлении",
+                  "времени",
+                  "голосования"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Каждая партия имеет право направить своего представителя в комиссию.",
+                "options": [
+                  "The Central Election Commission is responsible for organizing elections.",
+                  "Each party has the right to send its representative to the commission.",
+                  "The commission's secretary keeps the minutes of the meeting.",
+                  "The precinct election commission consists of seven members."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The territorial election commission coordinates the work of polling stations.",
+                "bank": [
+                  "избирательная",
+                  "комиссия",
+                  "Территориальная",
+                  "координирует",
+                  "участков",
+                  "работу"
+                ],
+                "answer": [
+                  "Территориальная",
+                  "избирательная",
+                  "комиссия",
+                  "координирует",
+                  "работу",
+                  "участков"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Комиссия опубликовала предварительные результаты голосования.",
+                "options": [
+                  "The commission members counted the votes after the station closed.",
+                  "The territorial election commission coordinates the work of polling stations.",
+                  "The commission published the preliminary voting results.",
+                  "All commission members took an oath before starting their work."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The commission meeting was open to observers.",
+                "bank": [
+                  "наблюдателей",
+                  "открытым",
+                  "было",
+                  "комиссии",
+                  "Заседание",
+                  "для"
+                ],
+                "answer": [
+                  "Заседание",
+                  "комиссии",
+                  "было",
+                  "открытым",
+                  "для",
+                  "наблюдателей"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Член комиссии отказался подписать итоговый протокол.",
+                "options": [
+                  "The commission ensures compliance with electoral legislation.",
+                  "The territorial election commission coordinates the work of polling stations.",
+                  "The commission decided to extend the voting time.",
+                  "A commission member refused to sign the final protocol."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The commission reviewed a complaint from the candidate's representative.",
+                "bank": [
+                  "рассмотрела",
+                  "Комиссия",
+                  "представителя",
+                  "от",
+                  "жалобу",
+                  "кандидата"
+                ],
+                "answer": [
+                  "Комиссия",
+                  "рассмотрела",
+                  "жалобу",
+                  "от",
+                  "представителя",
+                  "кандидата"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Все члены комиссии принесли присягу перед началом работы.",
+                "options": [
+                  "The chairperson of the commission opened the meeting at nine o'clock.",
+                  "The deputy chairperson temporarily performed the duties of the chairperson.",
+                  "A commission member refused to sign the final protocol.",
+                  "All commission members took an oath before starting their work."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The commission ensures compliance with electoral legislation.",
+                "bank": [
+                  "соблюдение",
+                  "избирательного",
+                  "Комиссия",
+                  "законодательства",
+                  "обеспечивает"
+                ],
+                "answer": [
+                  "Комиссия",
+                  "обеспечивает",
+                  "соблюдение",
+                  "избирательного",
+                  "законодательства"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Заместитель председателя временно исполнял обязанности председателя.",
+                "options": [
+                  "The commission ensures compliance with electoral legislation.",
+                  "The commission published the preliminary voting results.",
+                  "The deputy chairperson temporarily performed the duties of the chairperson.",
+                  "The commission members counted the votes after the station closed."
+                ],
+                "answerIndex": 2
+              }
+            ]
+          },
+          {
+            "id": "l1-3",
+            "number": 3,
+            "title": "Voter Registration",
+            "titleNative": "Регистрация избирателей",
+            "description": "Voter lists, registration, and eligibility",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Список избирателей был вывешен на участке за неделю до выборов.",
+                "options": [
+                  "The error in the voter list was corrected the same day.",
+                  "The voter list was posted at the polling station a week before the election.",
+                  "Every citizen should check their name on the voter list.",
+                  "The observers checked the accuracy of the voter list at the station."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Every citizen should check their name on the voter list.",
+                "bank": [
+                  "должен",
+                  "списке",
+                  "имя",
+                  "проверить",
+                  "Каждый",
+                  "в",
+                  "гражданин",
+                  "избирателей",
+                  "своё"
+                ],
+                "answer": [
+                  "Каждый",
+                  "гражданин",
+                  "должен",
+                  "проверить",
+                  "своё",
+                  "имя",
+                  "в",
+                  "списке",
+                  "избирателей"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Избиратель подал заявление об исключении из списка по прежнему адресу.",
+                "options": [
+                  "Only citizens who have reached eighteen years of age have the right to vote.",
+                  "Duplicate entries were found in some voter lists.",
+                  "The voter submitted an application to be removed from the list at the previous address.",
+                  "A voter has the right to appeal a refusal to be included on the list."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Voter registration ended ten days before the vote.",
+                "bank": [
+                  "избирателей",
+                  "Регистрация",
+                  "до",
+                  "голосования",
+                  "десять",
+                  "дней",
+                  "за",
+                  "завершилась"
+                ],
+                "answer": [
+                  "Регистрация",
+                  "избирателей",
+                  "завершилась",
+                  "за",
+                  "десять",
+                  "дней",
+                  "до",
+                  "голосования"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "В список были включены только совершеннолетние граждане.",
+                "options": [
+                  "The voter submitted an application to be removed from the list at the previous address.",
+                  "Only adult citizens were included on the list.",
+                  "The error in the voter list was corrected the same day.",
+                  "The voter list is updated before every election."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The error in the voter list was corrected the same day.",
+                "bank": [
+                  "списке",
+                  "день",
+                  "в",
+                  "избирателей",
+                  "исправлена",
+                  "в",
+                  "же",
+                  "Ошибка",
+                  "была",
+                  "тот"
+                ],
+                "answer": [
+                  "Ошибка",
+                  "в",
+                  "списке",
+                  "избирателей",
+                  "была",
+                  "исправлена",
+                  "в",
+                  "тот",
+                  "же",
+                  "день"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Избиратель имеет право обжаловать отказ во включении в список.",
+                "options": [
+                  "Voter registration ended ten days before the vote.",
+                  "The voter submitted an application to be removed from the list at the previous address.",
+                  "A voter has the right to appeal a refusal to be included on the list.",
+                  "The error in the voter list was corrected the same day."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The voter list is updated before every election.",
+                "bank": [
+                  "Список",
+                  "избирателей",
+                  "выборами",
+                  "уточняется",
+                  "перед",
+                  "каждыми"
+                ],
+                "answer": [
+                  "Список",
+                  "избирателей",
+                  "уточняется",
+                  "перед",
+                  "каждыми",
+                  "выборами"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Гражданин, проживающий за границей, тоже может зарегистрироваться.",
+                "options": [
+                  "The voter list was posted at the polling station a week before the election.",
+                  "Only adult citizens were included on the list.",
+                  "A citizen living abroad can also register.",
+                  "A voter without registration can vote at their actual place of residence."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The commission cross-checked the voter list with the passport office database.",
+                "bank": [
+                  "паспортного",
+                  "базой",
+                  "список",
+                  "сверила",
+                  "стола",
+                  "с",
+                  "Комиссия",
+                  "избирателей",
+                  "данных"
+                ],
+                "answer": [
+                  "Комиссия",
+                  "сверила",
+                  "список",
+                  "избирателей",
+                  "с",
+                  "базой",
+                  "данных",
+                  "паспортного",
+                  "стола"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "В некоторых списках избирателей обнаружили повторяющиеся записи.",
+                "options": [
+                  "Duplicate entries were found in some voter lists.",
+                  "A voter has the right to appeal a refusal to be included on the list.",
+                  "The voter list is updated before every election.",
+                  "Every citizen should check their name on the voter list."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "A voter without registration can vote at their actual place of residence.",
+                "bank": [
+                  "месту",
+                  "Избиратель",
+                  "прописки",
+                  "фактического",
+                  "может",
+                  "без",
+                  "по",
+                  "проживания",
+                  "проголосовать"
+                ],
+                "answer": [
+                  "Избиратель",
+                  "без",
+                  "прописки",
+                  "может",
+                  "проголосовать",
+                  "по",
+                  "месту",
+                  "фактического",
+                  "проживания"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Обновлённый список избирателей был передан во все участковые комиссии.",
+                "options": [
+                  "The voter list was posted at the polling station a week before the election.",
+                  "The updated voter list was sent to all precinct commissions.",
+                  "The voter list is updated before every election.",
+                  "A citizen living abroad can also register."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Only citizens who have reached eighteen years of age have the right to vote.",
+                "bank": [
+                  "Право",
+                  "граждане",
+                  "голоса",
+                  "восемнадцати",
+                  "имеют",
+                  "только",
+                  "достигшие",
+                  "лет"
+                ],
+                "answer": [
+                  "Право",
+                  "голоса",
+                  "имеют",
+                  "только",
+                  "граждане",
+                  "достигшие",
+                  "восемнадцати",
+                  "лет"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Наблюдатели проверили точность списка избирателей на участке.",
+                "options": [
+                  "The voter submitted an application to be removed from the list at the previous address.",
+                  "A voter has the right to appeal a refusal to be included on the list.",
+                  "A citizen living abroad can also register.",
+                  "The observers checked the accuracy of the voter list at the station."
+                ],
+                "answerIndex": 3
+              }
+            ]
+          },
+          {
+            "id": "l1-4",
+            "number": 4,
+            "title": "The Campaign Period",
+            "titleNative": "Предвыборная агитация",
+            "description": "Campaigning, candidates, and media coverage",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Предвыборная агитация началась за месяц до дня голосования.",
+                "options": [
+                  "The election campaign began a month before voting day.",
+                  "The party organized a series of meetings with voters in the regions.",
+                  "The party placed posters throughout the city.",
+                  "The campaign period officially ended at midnight."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The candidate held a meeting with voters at the local cultural center.",
+                "bank": [
+                  "с",
+                  "встречу",
+                  "избирателями",
+                  "доме",
+                  "местном",
+                  "культуры",
+                  "в",
+                  "Кандидат",
+                  "провёл"
+                ],
+                "answer": [
+                  "Кандидат",
+                  "провёл",
+                  "встречу",
+                  "с",
+                  "избирателями",
+                  "в",
+                  "местном",
+                  "доме",
+                  "культуры"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Закон запрещает агитацию в день голосования.",
+                "options": [
+                  "The law prohibits campaigning on voting day.",
+                  "The observers recorded cases of illegal campaigning near the polling station.",
+                  "The candidate exceeded the campaign spending limit.",
+                  "The candidate held a meeting with voters at the local cultural center."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The party placed posters throughout the city.",
+                "bank": [
+                  "Партия",
+                  "всему",
+                  "плакаты",
+                  "по",
+                  "городу",
+                  "разместила"
+                ],
+                "answer": [
+                  "Партия",
+                  "разместила",
+                  "плакаты",
+                  "по",
+                  "всему",
+                  "городу"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Кандидаты приняли участие в теледебатах накануне выборов.",
+                "options": [
+                  "The candidate exceeded the campaign spending limit.",
+                  "The observers recorded cases of illegal campaigning near the polling station.",
+                  "The party placed posters throughout the city.",
+                  "The candidates took part in televised debates on the eve of the election."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Election campaign financing must be transparent.",
+                "bank": [
+                  "прозрачным",
+                  "должно",
+                  "кампании",
+                  "быть",
+                  "Финансирование",
+                  "избирательной"
+                ],
+                "answer": [
+                  "Финансирование",
+                  "избирательной",
+                  "кампании",
+                  "должно",
+                  "быть",
+                  "прозрачным"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Агитационные материалы должны содержать сведения об их источнике.",
+                "options": [
+                  "The observers recorded cases of illegal campaigning near the polling station.",
+                  "Campaign materials must contain information about their source.",
+                  "The election campaign began a month before voting day.",
+                  "The law prohibits campaigning on voting day."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The candidate exceeded the campaign spending limit.",
+                "bank": [
+                  "Кандидат",
+                  "превысил",
+                  "лимит",
+                  "на",
+                  "кампанию",
+                  "предвыборную",
+                  "расходов"
+                ],
+                "answer": [
+                  "Кандидат",
+                  "превысил",
+                  "лимит",
+                  "расходов",
+                  "на",
+                  "предвыборную",
+                  "кампанию"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Средства массовой информации обязаны освещать кампанию беспристрастно.",
+                "options": [
+                  "Campaign materials must contain information about their source.",
+                  "The use of state resources in campaigning is prohibited by law.",
+                  "The media are required to cover the campaign impartially.",
+                  "The candidate exceeded the campaign spending limit."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The party organized a series of meetings with voters in the regions.",
+                "bank": [
+                  "встреч",
+                  "с",
+                  "организовала",
+                  "регионах",
+                  "избирателями",
+                  "Партия",
+                  "в",
+                  "серию"
+                ],
+                "answer": [
+                  "Партия",
+                  "организовала",
+                  "серию",
+                  "встреч",
+                  "с",
+                  "избирателями",
+                  "в",
+                  "регионах"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Кандидат представил свою предвыборную программу на пресс-конференции.",
+                "options": [
+                  "Campaign materials must contain information about their source.",
+                  "The use of state resources in campaigning is prohibited by law.",
+                  "The candidate presented his election platform at a press conference.",
+                  "The candidate held a meeting with voters at the local cultural center."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The use of state resources in campaigning is prohibited by law.",
+                "bank": [
+                  "государственных",
+                  "законом",
+                  "в",
+                  "ресурсов",
+                  "агитации",
+                  "запрещено",
+                  "Использование"
+                ],
+                "answer": [
+                  "Использование",
+                  "государственных",
+                  "ресурсов",
+                  "в",
+                  "агитации",
+                  "запрещено",
+                  "законом"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Агитационный период официально завершился в полночь.",
+                "options": [
+                  "The use of state resources in campaigning is prohibited by law.",
+                  "The candidate held a meeting with voters at the local cultural center.",
+                  "The campaign period officially ended at midnight.",
+                  "The observers recorded cases of illegal campaigning near the polling station."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The observers recorded cases of illegal campaigning near the polling station.",
+                "bank": [
+                  "агитации",
+                  "возле",
+                  "зафиксировали",
+                  "незаконной",
+                  "Наблюдатели",
+                  "случаи",
+                  "участка"
+                ],
+                "answer": [
+                  "Наблюдатели",
+                  "зафиксировали",
+                  "случаи",
+                  "незаконной",
+                  "агитации",
+                  "возле",
+                  "участка"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Каждый кандидат получил равное эфирное время на государственном телевидении.",
+                "options": [
+                  "The party placed posters throughout the city.",
+                  "The observers recorded cases of illegal campaigning near the polling station.",
+                  "Each candidate received equal airtime on state television.",
+                  "The party organized a series of meetings with voters in the regions."
+                ],
+                "answerIndex": 2
+              }
+            ]
+          },
+          {
+            "id": "l1-5",
+            "number": 5,
+            "title": "Election Observers",
+            "titleNative": "Наблюдатели",
+            "description": "Observer mandates, accreditation, and conduct",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Международные наблюдатели прибыли в страну за неделю до выборов.",
+                "options": [
+                  "The observer mission published a preliminary statement the next day.",
+                  "An observer's mandate does not give the right to interfere with the commission's work.",
+                  "International observers arrived in the country a week before the election.",
+                  "An observer has the right to move freely around the polling station."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The observer presented accreditation at the entrance to the polling station.",
+                "bank": [
+                  "аккредитацию",
+                  "предъявил",
+                  "в",
+                  "на",
+                  "Наблюдатель",
+                  "участок",
+                  "входе"
+                ],
+                "answer": [
+                  "Наблюдатель",
+                  "предъявил",
+                  "аккредитацию",
+                  "на",
+                  "входе",
+                  "в",
+                  "участок"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Долгосрочные наблюдатели следят за ходом всей избирательной кампании.",
+                "options": [
+                  "Long-term observers monitor the entire election campaign.",
+                  "Short-term observers arrive right before voting day.",
+                  "The observer presented accreditation at the entrance to the polling station.",
+                  "The mission's final report contains recommendations for improving the process."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Short-term observers arrive right before voting day.",
+                "bank": [
+                  "днём",
+                  "голосования",
+                  "непосредственно",
+                  "прибывают",
+                  "наблюдатели",
+                  "перед",
+                  "Краткосрочные"
+                ],
+                "answer": [
+                  "Краткосрочные",
+                  "наблюдатели",
+                  "прибывают",
+                  "непосредственно",
+                  "перед",
+                  "днём",
+                  "голосования"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Наблюдатель имеет право свободно перемещаться по участку.",
+                "options": [
+                  "An observer has the right to move freely around the polling station.",
+                  "Every observer must comply with the code of conduct.",
+                  "An observer must remain impartial throughout the entire voting day.",
+                  "Long-term observers monitor the entire election campaign."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The observer mission published a preliminary statement the next day.",
+                "bank": [
+                  "наблюдателей",
+                  "заявление",
+                  "день",
+                  "Миссия",
+                  "опубликовала",
+                  "предварительное",
+                  "следующий",
+                  "на"
+                ],
+                "answer": [
+                  "Миссия",
+                  "наблюдателей",
+                  "опубликовала",
+                  "предварительное",
+                  "заявление",
+                  "на",
+                  "следующий",
+                  "день"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Каждый наблюдатель обязан соблюдать кодекс поведения.",
+                "options": [
+                  "The mission sent observers to more than three hundred polling stations.",
+                  "The observer noted a violation in his report.",
+                  "An observer has the right to move freely around the polling station.",
+                  "Every observer must comply with the code of conduct."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The observers were present during the vote count until the very end.",
+                "bank": [
+                  "при",
+                  "присутствовали",
+                  "конца",
+                  "подсчёте",
+                  "самого",
+                  "Наблюдатели",
+                  "голосов",
+                  "до"
+                ],
+                "answer": [
+                  "Наблюдатели",
+                  "присутствовали",
+                  "при",
+                  "подсчёте",
+                  "голосов",
+                  "до",
+                  "самого",
+                  "конца"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Мандат наблюдателя не даёт права вмешиваться в работу комиссии.",
+                "options": [
+                  "The mission sent observers to more than three hundred polling stations.",
+                  "The mission's final report contains recommendations for improving the process.",
+                  "The observer presented accreditation at the entrance to the polling station.",
+                  "An observer's mandate does not give the right to interfere with the commission's work."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "National observers worked together with their international colleagues.",
+                "bank": [
+                  "международными",
+                  "коллегами",
+                  "вместе",
+                  "работали",
+                  "наблюдатели",
+                  "Национальные",
+                  "с"
+                ],
+                "answer": [
+                  "Национальные",
+                  "наблюдатели",
+                  "работали",
+                  "вместе",
+                  "с",
+                  "международными",
+                  "коллегами"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Наблюдатель отметил нарушение в своём отчёте.",
+                "options": [
+                  "An observer's mandate does not give the right to interfere with the commission's work.",
+                  "The observer presented accreditation at the entrance to the polling station.",
+                  "The observer noted a violation in his report.",
+                  "Long-term observers monitor the entire election campaign."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The mission sent observers to more than three hundred polling stations.",
+                "bank": [
+                  "триста",
+                  "на",
+                  "участков",
+                  "наблюдателей",
+                  "Миссия",
+                  "более",
+                  "направила",
+                  "чем"
+                ],
+                "answer": [
+                  "Миссия",
+                  "направила",
+                  "наблюдателей",
+                  "на",
+                  "более",
+                  "чем",
+                  "триста",
+                  "участков"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Наблюдатель должен оставаться беспристрастным на протяжении всего дня голосования.",
+                "options": [
+                  "The observer noted a violation in his report.",
+                  "Long-term observers monitor the entire election campaign.",
+                  "The observers were denied access to the vote-count protocol.",
+                  "An observer must remain impartial throughout the entire voting day."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The mission's final report contains recommendations for improving the process.",
+                "bank": [
+                  "процесса",
+                  "по",
+                  "рекомендации",
+                  "миссии",
+                  "Итоговый",
+                  "улучшению",
+                  "содержит",
+                  "отчёт"
+                ],
+                "answer": [
+                  "Итоговый",
+                  "отчёт",
+                  "миссии",
+                  "содержит",
+                  "рекомендации",
+                  "по",
+                  "улучшению",
+                  "процесса"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Наблюдателям было отказано в доступе к протоколу подсчёта голосов.",
+                "options": [
+                  "An observer has the right to move freely around the polling station.",
+                  "Long-term observers monitor the entire election campaign.",
+                  "The observer mission published a preliminary statement the next day.",
+                  "The observers were denied access to the vote-count protocol."
+                ],
+                "answerIndex": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l2",
+        "badge": "II",
+        "label": "Election Administration",
+        "labelNative": "Избирательные комиссии",
+        "lessons": []
+      },
+      {
+        "id": "l3",
+        "badge": "III",
+        "label": "Election Day",
+        "labelNative": "День голосования",
+        "lessons": []
+      },
+      {
+        "id": "l4",
+        "badge": "IV",
+        "label": "Legal & Observation",
+        "labelNative": "Право и наблюдение",
+        "lessons": []
+      }
+    ]
+  }
+}
