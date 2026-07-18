@@ -117,6 +117,9 @@
   }
   function saveProgress() {
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+    if (window.CloudSync && window.CloudSync.user) {
+      window.CloudSync.pushProgress(progress);
+    }
   }
   function updateStreakOnCompletion() {
     const today = new Date().toDateString();
@@ -200,6 +203,17 @@
     initDirection();
     await loadCourseData();
     progress = loadProgress();
+    if (window.CloudSync && window.CloudSync.user) {
+      try {
+        const remote = await window.CloudSync.pullProgress();
+        if (remote) {
+          progress = remote;
+          saveProgress();
+        } else {
+          window.CloudSync.pushProgress(progress);
+        }
+      } catch (e) { /* offline — continue with local progress */ }
+    }
     refreshTopStats();
     renderHome();
     wireGlobalUi();
@@ -619,5 +633,5 @@
     });
   }
 
-  boot();
+  window.__appReady = boot;
 })();
