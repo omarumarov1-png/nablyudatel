@@ -1355,6 +1355,1378 @@
                 "answerIndex": 3
               }
             ]
+          },
+          {
+            "id": "l1-6",
+            "number": 6,
+            "title": "Electoral Systems",
+            "titleNative": "Избирательные системы",
+            "description": "Proportional, majoritarian, and mixed systems",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Страна использует пропорциональную избирательную систему на парламентских выборах.",
+                "options": [
+                  "Each electoral district is represented by one deputy.",
+                  "The majoritarian system involves electing one deputy per district.",
+                  "The country uses a proportional electoral system for parliamentary elections.",
+                  "The party failed to overcome the legally established threshold."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The majoritarian system involves electing one deputy per district.",
+                "bank": [
+                  "предполагает",
+                  "от",
+                  "система",
+                  "избрание",
+                  "Мажоритарная",
+                  "округа",
+                  "депутата",
+                  "одного"
+                ],
+                "answer": [
+                  "Мажоритарная",
+                  "система",
+                  "предполагает",
+                  "избрание",
+                  "одного",
+                  "депутата",
+                  "от",
+                  "округа"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Смешанная избирательная система сочетает элементы обеих систем.",
+                "options": [
+                  "The proportional system ensures broader representation of parties.",
+                  "The electoral threshold is five percent of the vote.",
+                  "A mixed electoral system combines elements of both systems.",
+                  "The choice of electoral system significantly affects the country's political landscape."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The electoral threshold is five percent of the vote.",
+                "bank": [
+                  "Избирательный",
+                  "процентов",
+                  "голосов",
+                  "пять",
+                  "составляет",
+                  "порог"
+                ],
+                "answer": [
+                  "Избирательный",
+                  "порог",
+                  "составляет",
+                  "пять",
+                  "процентов",
+                  "голосов"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Партийные списки распределяются по методу наибольшего остатка.",
+                "options": [
+                  "The country uses a proportional electoral system for parliamentary elections.",
+                  "Party lists are allocated using the largest remainder method.",
+                  "The majoritarian system involves electing one deputy per district.",
+                  "The proportional system ensures broader representation of parties."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The reform of the electoral system was discussed in parliament for several years.",
+                "bank": [
+                  "парламенте",
+                  "избирательной",
+                  "в",
+                  "обсуждалась",
+                  "системы",
+                  "Реформа",
+                  "несколько",
+                  "лет"
+                ],
+                "answer": [
+                  "Реформа",
+                  "избирательной",
+                  "системы",
+                  "обсуждалась",
+                  "в",
+                  "парламенте",
+                  "несколько",
+                  "лет"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Каждый избирательный округ представлен одним депутатом.",
+                "options": [
+                  "The choice of electoral system significantly affects the country's political landscape.",
+                  "Observers examined the impact of the electoral system on the final composition of parliament.",
+                  "Each electoral district is represented by one deputy.",
+                  "A mixed electoral system combines elements of both systems."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The proportional system ensures broader representation of parties.",
+                "bank": [
+                  "обеспечивает",
+                  "представительство",
+                  "Пропорциональная",
+                  "более",
+                  "система",
+                  "широкое",
+                  "партий"
+                ],
+                "answer": [
+                  "Пропорциональная",
+                  "система",
+                  "обеспечивает",
+                  "более",
+                  "широкое",
+                  "представительство",
+                  "партий"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Избирательная система страны закреплена в конституции.",
+                "options": [
+                  "The country's electoral system is enshrined in the constitution.",
+                  "The mixed system is applied in elections to the lower house of parliament.",
+                  "The majoritarian system involves electing one deputy per district.",
+                  "The country uses a proportional electoral system for parliamentary elections."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The majoritarian system can lead to distortion of the voting results.",
+                "bank": [
+                  "система",
+                  "к",
+                  "искажению",
+                  "результатов",
+                  "может",
+                  "привести",
+                  "голосования",
+                  "Мажоритарная"
+                ],
+                "answer": [
+                  "Мажоритарная",
+                  "система",
+                  "может",
+                  "привести",
+                  "к",
+                  "искажению",
+                  "результатов",
+                  "голосования"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Партия не смогла преодолеть установленный законом порог.",
+                "options": [
+                  "The proportional system ensures broader representation of parties.",
+                  "The majoritarian system can lead to distortion of the voting results.",
+                  "The party failed to overcome the legally established threshold.",
+                  "The country's electoral system is enshrined in the constitution."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The mixed system is applied in elections to the lower house of parliament.",
+                "bank": [
+                  "применяется",
+                  "Смешанная",
+                  "выборах",
+                  "на",
+                  "парламента",
+                  "в",
+                  "нижнюю",
+                  "система",
+                  "палату"
+                ],
+                "answer": [
+                  "Смешанная",
+                  "система",
+                  "применяется",
+                  "на",
+                  "выборах",
+                  "в",
+                  "нижнюю",
+                  "палату",
+                  "парламента"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Изменение избирательной системы требует одобрения квалифицированным большинством.",
+                "options": [
+                  "The reform of the electoral system was discussed in parliament for several years.",
+                  "Changing the electoral system requires approval by a qualified majority.",
+                  "The majoritarian system can lead to distortion of the voting results.",
+                  "The mixed system is applied in elections to the lower house of parliament."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Observers examined the impact of the electoral system on the final composition of parliament.",
+                "bank": [
+                  "итоговый",
+                  "на",
+                  "избирательной",
+                  "системы",
+                  "изучили",
+                  "влияние",
+                  "Наблюдатели",
+                  "состав",
+                  "парламента"
+                ],
+                "answer": [
+                  "Наблюдатели",
+                  "изучили",
+                  "влияние",
+                  "избирательной",
+                  "системы",
+                  "на",
+                  "итоговый",
+                  "состав",
+                  "парламента"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Выбор избирательной системы существенно влияет на политический ландшафт страны.",
+                "options": [
+                  "Each electoral district is represented by one deputy.",
+                  "The choice of electoral system significantly affects the country's political landscape.",
+                  "Changing the electoral system requires approval by a qualified majority.",
+                  "The reform of the electoral system was discussed in parliament for several years."
+                ],
+                "answerIndex": 1
+              }
+            ]
+          },
+          {
+            "id": "l1-7",
+            "number": 7,
+            "title": "Political Parties & Coalitions",
+            "titleNative": "Политические партии и коалиции",
+            "description": "Parties, alliances, and parliamentary coalitions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "В стране зарегистрировано более двадцати политических партий.",
+                "options": [
+                  "The ruling coalition consists of three parties.",
+                  "The ruling party holds a majority of seats in parliament.",
+                  "More than twenty political parties are registered in the country.",
+                  "The opposition coalition nominated a single candidate."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Two parties formed a coalition before the election.",
+                "bank": [
+                  "в",
+                  "коалицию",
+                  "выборами",
+                  "объединились",
+                  "перед",
+                  "Две",
+                  "партии"
+                ],
+                "answer": [
+                  "Две",
+                  "партии",
+                  "объединились",
+                  "в",
+                  "коалицию",
+                  "перед",
+                  "выборами"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Правящая партия удерживает большинство мест в парламенте.",
+                "options": [
+                  "Two parties formed a coalition before the election.",
+                  "The country's party system remains rather fragmented.",
+                  "The ruling coalition consists of three parties.",
+                  "The ruling party holds a majority of seats in parliament."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The opposition coalition nominated a single candidate.",
+                "bank": [
+                  "выдвинула",
+                  "коалиция",
+                  "кандидата",
+                  "единого",
+                  "Оппозиционная"
+                ],
+                "answer": [
+                  "Оппозиционная",
+                  "коалиция",
+                  "выдвинула",
+                  "единого",
+                  "кандидата"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Новая партия была основана бывшими членами парламента.",
+                "options": [
+                  "The country's party system remains rather fragmented.",
+                  "The coalition fell apart after disagreements over key issues.",
+                  "A new party was founded by former members of parliament.",
+                  "The party leader addressed his supporters."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The party congress approved the election platform.",
+                "bank": [
+                  "съезд",
+                  "программу",
+                  "предвыборную",
+                  "утвердил",
+                  "Партийный"
+                ],
+                "answer": [
+                  "Партийный",
+                  "съезд",
+                  "утвердил",
+                  "предвыборную",
+                  "программу"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Коалиционное соглашение определяет распределение министерских постов.",
+                "options": [
+                  "Small parties often unite to overcome the electoral threshold.",
+                  "The coalition agreement determines the distribution of ministerial posts.",
+                  "The ruling coalition consists of three parties.",
+                  "The party split shortly before the start of the election campaign."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Small parties often unite to overcome the electoral threshold.",
+                "bank": [
+                  "объединяются",
+                  "часто",
+                  "преодолеть",
+                  "Малые",
+                  "партии",
+                  "порог",
+                  "избирательный",
+                  "чтобы"
+                ],
+                "answer": [
+                  "Малые",
+                  "партии",
+                  "часто",
+                  "объединяются",
+                  "чтобы",
+                  "преодолеть",
+                  "избирательный",
+                  "порог"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Лидер партии выступил с обращением к своим сторонникам.",
+                "options": [
+                  "The party leader addressed his supporters.",
+                  "The party split shortly before the start of the election campaign.",
+                  "The new party quickly gained popularity among young voters.",
+                  "A new party was founded by former members of parliament."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The party split shortly before the start of the election campaign.",
+                "bank": [
+                  "начала",
+                  "незадолго",
+                  "предвыборной",
+                  "Партия",
+                  "кампании",
+                  "до",
+                  "раскололась"
+                ],
+                "answer": [
+                  "Партия",
+                  "раскололась",
+                  "незадолго",
+                  "до",
+                  "начала",
+                  "предвыборной",
+                  "кампании"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Коалиция распалась после разногласий по ключевым вопросам.",
+                "options": [
+                  "The ruling coalition consists of three parties.",
+                  "The opposition coalition nominated a single candidate.",
+                  "The ruling party holds a majority of seats in parliament.",
+                  "The coalition fell apart after disagreements over key issues."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Each party presented its candidates in the media.",
+                "bank": [
+                  "своих",
+                  "партия",
+                  "Каждая",
+                  "средствах",
+                  "в",
+                  "кандидатов",
+                  "массовой",
+                  "представила",
+                  "информации"
+                ],
+                "answer": [
+                  "Каждая",
+                  "партия",
+                  "представила",
+                  "своих",
+                  "кандидатов",
+                  "в",
+                  "средствах",
+                  "массовой",
+                  "информации"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Правящая коалиция состоит из трёх партий.",
+                "options": [
+                  "The ruling coalition consists of three parties.",
+                  "A new party was founded by former members of parliament.",
+                  "The party split shortly before the start of the election campaign.",
+                  "Small parties often unite to overcome the electoral threshold."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The new party quickly gained popularity among young voters.",
+                "bank": [
+                  "Новая",
+                  "избирателей",
+                  "партия",
+                  "среди",
+                  "популярность",
+                  "молодых",
+                  "быстро",
+                  "набрала"
+                ],
+                "answer": [
+                  "Новая",
+                  "партия",
+                  "быстро",
+                  "набрала",
+                  "популярность",
+                  "среди",
+                  "молодых",
+                  "избирателей"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Партийная система страны остаётся довольно раздробленной.",
+                "options": [
+                  "Two parties formed a coalition before the election.",
+                  "The ruling party holds a majority of seats in parliament.",
+                  "The country's party system remains rather fragmented.",
+                  "The coalition fell apart after disagreements over key issues."
+                ],
+                "answerIndex": 2
+              }
+            ]
+          },
+          {
+            "id": "l1-8",
+            "number": 8,
+            "title": "Referendums",
+            "titleNative": "Референдумы",
+            "description": "Direct votes on constitutional and policy questions",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Референдум по вопросу конституционной реформы назначен на осень.",
+                "options": [
+                  "The referendum question was formulated clearly and unambiguously.",
+                  "A referendum on constitutional reform is scheduled for the autumn.",
+                  "Holding a referendum requires significant financial expenditure.",
+                  "The opposition called for a boycott of the upcoming referendum."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Citizens voted in the referendum in favor of joining the international organization.",
+                "bank": [
+                  "на",
+                  "международную",
+                  "вступление",
+                  "референдуме",
+                  "Граждане",
+                  "в",
+                  "проголосовали",
+                  "организацию",
+                  "за"
+                ],
+                "answer": [
+                  "Граждане",
+                  "проголосовали",
+                  "на",
+                  "референдуме",
+                  "за",
+                  "вступление",
+                  "в",
+                  "международную",
+                  "организацию"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Явка на референдуме должна превысить установленный законом порог.",
+                "options": [
+                  "The referendum was initiated by a group of members of parliament.",
+                  "The majority of voters voted against the proposed changes.",
+                  "Turnout in the referendum must exceed the legally established threshold.",
+                  "The results of the referendum were challenged in the constitutional court."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The referendum question was formulated clearly and unambiguously.",
+                "bank": [
+                  "и",
+                  "ясно",
+                  "Вопрос",
+                  "недвусмысленно",
+                  "сформулирован",
+                  "был",
+                  "референдума"
+                ],
+                "answer": [
+                  "Вопрос",
+                  "референдума",
+                  "был",
+                  "сформулирован",
+                  "ясно",
+                  "и",
+                  "недвусмысленно"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Итоги референдума являются обязательными для исполнения.",
+                "options": [
+                  "The results of the referendum are binding.",
+                  "A referendum on constitutional reform is scheduled for the autumn.",
+                  "Turnout in the referendum must exceed the legally established threshold.",
+                  "The results of the referendum were challenged in the constitutional court."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The opposition called for a boycott of the upcoming referendum.",
+                "bank": [
+                  "референдум",
+                  "бойкотировать",
+                  "предстоящий",
+                  "Оппозиция",
+                  "призвала"
+                ],
+                "answer": [
+                  "Оппозиция",
+                  "призвала",
+                  "бойкотировать",
+                  "предстоящий",
+                  "референдум"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Референдум был инициирован группой депутатов парламента.",
+                "options": [
+                  "The referendum question was formulated clearly and unambiguously.",
+                  "The referendum was initiated by a group of members of parliament.",
+                  "A local referendum decided the question of merging two municipalities.",
+                  "The results of the referendum are binding."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Observers monitored the conduct of the referendum on par with regular elections.",
+                "bank": [
+                  "наравне",
+                  "за",
+                  "проведением",
+                  "Наблюдатели",
+                  "референдума",
+                  "следили",
+                  "обычными",
+                  "выборами",
+                  "с"
+                ],
+                "answer": [
+                  "Наблюдатели",
+                  "следили",
+                  "за",
+                  "проведением",
+                  "референдума",
+                  "наравне",
+                  "с",
+                  "обычными",
+                  "выборами"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Кампания перед референдумом вызвала широкую общественную дискуссию.",
+                "options": [
+                  "Observers monitored the conduct of the referendum on par with regular elections.",
+                  "Citizens voted in the referendum in favor of joining the international organization.",
+                  "The referendum was held simultaneously with the parliamentary elections.",
+                  "The campaign before the referendum sparked wide public debate."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The majority of voters voted against the proposed changes.",
+                "bank": [
+                  "изменений",
+                  "Большинство",
+                  "против",
+                  "избирателей",
+                  "проголосовали",
+                  "предложенных"
+                ],
+                "answer": [
+                  "Большинство",
+                  "избирателей",
+                  "проголосовали",
+                  "против",
+                  "предложенных",
+                  "изменений"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Референдум состоялся одновременно с парламентскими выборами.",
+                "options": [
+                  "The referendum was held simultaneously with the parliamentary elections.",
+                  "The results of the referendum are binding.",
+                  "The majority of voters voted against the proposed changes.",
+                  "Turnout in the referendum must exceed the legally established threshold."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The referendum commission is responsible for counting votes separately from the elections.",
+                "bank": [
+                  "отвечает",
+                  "выборов",
+                  "от",
+                  "голосов",
+                  "по",
+                  "референдуму",
+                  "Комиссия",
+                  "за",
+                  "подсчёт",
+                  "отдельно"
+                ],
+                "answer": [
+                  "Комиссия",
+                  "по",
+                  "референдуму",
+                  "отвечает",
+                  "за",
+                  "подсчёт",
+                  "голосов",
+                  "отдельно",
+                  "от",
+                  "выборов"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Результаты референдума были оспорены в конституционном суде.",
+                "options": [
+                  "The opposition called for a boycott of the upcoming referendum.",
+                  "The results of the referendum were challenged in the constitutional court.",
+                  "Turnout in the referendum must exceed the legally established threshold.",
+                  "Citizens voted in the referendum in favor of joining the international organization."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "A local referendum decided the question of merging two municipalities.",
+                "bank": [
+                  "слиянии",
+                  "Местный",
+                  "вопрос",
+                  "о",
+                  "референдум",
+                  "двух",
+                  "решил",
+                  "муниципалитетов"
+                ],
+                "answer": [
+                  "Местный",
+                  "референдум",
+                  "решил",
+                  "вопрос",
+                  "о",
+                  "слиянии",
+                  "двух",
+                  "муниципалитетов"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Проведение референдума требует значительных финансовых затрат.",
+                "options": [
+                  "Citizens voted in the referendum in favor of joining the international organization.",
+                  "Holding a referendum requires significant financial expenditure.",
+                  "The results of the referendum are binding.",
+                  "A referendum on constitutional reform is scheduled for the autumn."
+                ],
+                "answerIndex": 1
+              }
+            ]
+          },
+          {
+            "id": "l1-9",
+            "number": 9,
+            "title": "Election Types",
+            "titleNative": "Виды выборов",
+            "description": "Presidential, parliamentary, local, and by-elections",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Президентские выборы проводятся раз в шесть лет.",
+                "options": [
+                  "Presidential elections are held once every six years.",
+                  "The election of the city mayor will be held separately from the parliamentary elections.",
+                  "Municipal elections determine local self-government.",
+                  "Elections to the upper house of parliament are held once every four years."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Parliamentary elections are scheduled for the first Sunday of October.",
+                "bank": [
+                  "воскресенье",
+                  "октября",
+                  "выборы",
+                  "первое",
+                  "назначены",
+                  "на",
+                  "Парламентские"
+                ],
+                "answer": [
+                  "Парламентские",
+                  "выборы",
+                  "назначены",
+                  "на",
+                  "первое",
+                  "воскресенье",
+                  "октября"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Местные выборы определяют состав городского совета.",
+                "options": [
+                  "Local elections determine the composition of the city council.",
+                  "Parliamentary elections are scheduled for the first Sunday of October.",
+                  "The election of the city mayor will be held separately from the parliamentary elections.",
+                  "Municipal elections determine local self-government."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "By-elections fill a vacant seat in parliament.",
+                "bank": [
+                  "парламенте",
+                  "место",
+                  "в",
+                  "вакантное",
+                  "выборы",
+                  "восполняют",
+                  "Промежуточные"
+                ],
+                "answer": [
+                  "Промежуточные",
+                  "выборы",
+                  "восполняют",
+                  "вакантное",
+                  "место",
+                  "в",
+                  "парламенте"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Региональные выборы прошли одновременно в пяти областях.",
+                "options": [
+                  "Early elections were called after the dissolution of parliament.",
+                  "Local elections determine the composition of the city council.",
+                  "Parliamentary elections are scheduled for the first Sunday of October.",
+                  "Regional elections were held simultaneously in five provinces."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The second round of the presidential election will take place in two weeks.",
+                "bank": [
+                  "тур",
+                  "состоится",
+                  "две",
+                  "Второй",
+                  "недели",
+                  "выборов",
+                  "президентских",
+                  "через"
+                ],
+                "answer": [
+                  "Второй",
+                  "тур",
+                  "президентских",
+                  "выборов",
+                  "состоится",
+                  "через",
+                  "две",
+                  "недели"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Досрочные выборы были назначены после роспуска парламента.",
+                "options": [
+                  "Elections to the upper house of parliament are held once every four years.",
+                  "Early elections were called after the dissolution of parliament.",
+                  "Repeat elections were called due to detected violations.",
+                  "Each type of election is regulated by a separate section of the electoral code."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Municipal elections determine local self-government.",
+                "bank": [
+                  "самоуправление",
+                  "определяют",
+                  "выборы",
+                  "Муниципальные",
+                  "местное"
+                ],
+                "answer": [
+                  "Муниципальные",
+                  "выборы",
+                  "определяют",
+                  "местное",
+                  "самоуправление"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Кандидат победил в первом туре с абсолютным большинством голосов.",
+                "options": [
+                  "The candidate won in the first round with an absolute majority of votes.",
+                  "Regional elections were held simultaneously in five provinces.",
+                  "Presidential elections are held once every six years.",
+                  "The second round of the presidential election will take place in two weeks."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Repeat elections were called due to detected violations.",
+                "bank": [
+                  "из-за",
+                  "нарушений",
+                  "были",
+                  "выявленных",
+                  "Повторные",
+                  "выборы",
+                  "назначены"
+                ],
+                "answer": [
+                  "Повторные",
+                  "выборы",
+                  "были",
+                  "назначены",
+                  "из-за",
+                  "выявленных",
+                  "нарушений"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Всеобщие выборы охватывают все избирательные округа страны.",
+                "options": [
+                  "Repeat elections were called due to detected violations.",
+                  "Local elections determine the composition of the city council.",
+                  "General elections cover all electoral districts of the country.",
+                  "Elections to the upper house of parliament are held once every four years."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Elections to the upper house of parliament are held once every four years.",
+                "bank": [
+                  "палату",
+                  "четыре",
+                  "парламента",
+                  "в",
+                  "раз",
+                  "года",
+                  "Выборы",
+                  "в",
+                  "проводятся",
+                  "верхнюю"
+                ],
+                "answer": [
+                  "Выборы",
+                  "в",
+                  "верхнюю",
+                  "палату",
+                  "парламента",
+                  "проводятся",
+                  "раз",
+                  "в",
+                  "четыре",
+                  "года"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Внеочередные выборы были вызваны отставкой правительства.",
+                "options": [
+                  "Presidential elections are held once every six years.",
+                  "By-elections fill a vacant seat in parliament.",
+                  "Snap elections were caused by the resignation of the government.",
+                  "Each type of election is regulated by a separate section of the electoral code."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The election of the city mayor will be held separately from the parliamentary elections.",
+                "bank": [
+                  "мэра",
+                  "города",
+                  "отдельно",
+                  "выборов",
+                  "состоятся",
+                  "Выборы",
+                  "парламентских",
+                  "от"
+                ],
+                "answer": [
+                  "Выборы",
+                  "мэра",
+                  "города",
+                  "состоятся",
+                  "отдельно",
+                  "от",
+                  "парламентских",
+                  "выборов"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Каждый вид выборов регулируется отдельным разделом избирательного кодекса.",
+                "options": [
+                  "Municipal elections determine local self-government.",
+                  "Parliamentary elections are scheduled for the first Sunday of October.",
+                  "Each type of election is regulated by a separate section of the electoral code.",
+                  "The election of the city mayor will be held separately from the parliamentary elections."
+                ],
+                "answerIndex": 2
+              }
+            ]
+          },
+          {
+            "id": "l1-10",
+            "number": 10,
+            "title": "The Right to Vote",
+            "titleNative": "Право голоса",
+            "description": "Suffrage, eligibility, and its limits",
+            "exercises": [
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Право голоса гарантировано каждому гражданину страны.",
+                "options": [
+                  "Citizenship is a mandatory condition for exercising the right to vote.",
+                  "Young people receive the right to vote upon reaching the age of majority.",
+                  "The right to vote is guaranteed to every citizen of the country.",
+                  "Civil society organizations advocate for expanding voting rights."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Universal suffrage was enshrined in the constitution a century ago.",
+                "bank": [
+                  "закреплено",
+                  "было",
+                  "конституции",
+                  "избирательное",
+                  "столетие",
+                  "Всеобщее",
+                  "право",
+                  "назад",
+                  "в"
+                ],
+                "answer": [
+                  "Всеобщее",
+                  "избирательное",
+                  "право",
+                  "было",
+                  "закреплено",
+                  "в",
+                  "конституции",
+                  "столетие",
+                  "назад"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Осуждённые за тяжкие преступления временно лишаются права голоса.",
+                "options": [
+                  "Those convicted of serious crimes are temporarily deprived of the right to vote.",
+                  "The right to be elected differs from the right to vote in terms of the age requirement.",
+                  "Restriction of voting rights must be provided for by law.",
+                  "Universal suffrage was enshrined in the constitution a century ago."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "A citizen declared legally incompetent by a court cannot participate in voting.",
+                "bank": [
+                  "участвовать",
+                  "может",
+                  "недееспособным",
+                  "не",
+                  "судом",
+                  "в",
+                  "Гражданин",
+                  "голосовании",
+                  "признанный"
+                ],
+                "answer": [
+                  "Гражданин",
+                  "признанный",
+                  "судом",
+                  "недееспособным",
+                  "не",
+                  "может",
+                  "участвовать",
+                  "в",
+                  "голосовании"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Право голоса распространяется на граждан, проживающих за рубежом.",
+                "options": [
+                  "A citizen declared legally incompetent by a court cannot participate in voting.",
+                  "The right to vote extends to citizens living abroad.",
+                  "Protecting the right to vote remains a priority for the international community.",
+                  "The right to be elected differs from the right to vote in terms of the age requirement."
+                ],
+                "answerIndex": 1
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The law prohibits any discrimination in exercising the right to vote.",
+                "bank": [
+                  "дискриминацию",
+                  "реализации",
+                  "Закон",
+                  "любую",
+                  "запрещает",
+                  "права",
+                  "голоса",
+                  "при"
+                ],
+                "answer": [
+                  "Закон",
+                  "запрещает",
+                  "любую",
+                  "дискриминацию",
+                  "при",
+                  "реализации",
+                  "права",
+                  "голоса"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Молодые люди получают право голоса по достижении совершеннолетия.",
+                "options": [
+                  "Those convicted of serious crimes are temporarily deprived of the right to vote.",
+                  "A citizen declared legally incompetent by a court cannot participate in voting.",
+                  "Young people receive the right to vote upon reaching the age of majority.",
+                  "The constitutional court ruled the restriction of voting rights unlawful."
+                ],
+                "answerIndex": 2
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Restriction of voting rights must be provided for by law.",
+                "bank": [
+                  "должно",
+                  "быть",
+                  "избирательных",
+                  "Ограничение",
+                  "предусмотрено",
+                  "прав",
+                  "законом"
+                ],
+                "answer": [
+                  "Ограничение",
+                  "избирательных",
+                  "прав",
+                  "должно",
+                  "быть",
+                  "предусмотрено",
+                  "законом"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Организация защитила право голоса граждан с психическими расстройствами в суде.",
+                "options": [
+                  "The organization defended the voting rights of citizens with mental disorders in court.",
+                  "Universality and equality are the basic principles of the right to vote.",
+                  "The right to vote extends to citizens living abroad.",
+                  "Universal suffrage was enshrined in the constitution a century ago."
+                ],
+                "answerIndex": 0
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Universality and equality are the basic principles of the right to vote.",
+                "bank": [
+                  "принципами",
+                  "являются",
+                  "Всеобщность",
+                  "равенство",
+                  "права",
+                  "и",
+                  "избирательного",
+                  "основными"
+                ],
+                "answer": [
+                  "Всеобщность",
+                  "и",
+                  "равенство",
+                  "являются",
+                  "основными",
+                  "принципами",
+                  "избирательного",
+                  "права"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Право быть избранным отличается от права избирать по возрастному цензу.",
+                "options": [
+                  "The right to vote extends to citizens living abroad.",
+                  "Young people receive the right to vote upon reaching the age of majority.",
+                  "Citizenship is a mandatory condition for exercising the right to vote.",
+                  "The right to be elected differs from the right to vote in terms of the age requirement."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "The constitutional court ruled the restriction of voting rights unlawful.",
+                "bank": [
+                  "ограничение",
+                  "неправомерным",
+                  "признал",
+                  "Конституционный",
+                  "избирательных",
+                  "суд",
+                  "прав"
+                ],
+                "answer": [
+                  "Конституционный",
+                  "суд",
+                  "признал",
+                  "ограничение",
+                  "избирательных",
+                  "прав",
+                  "неправомерным"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Гражданство является обязательным условием для реализации права голоса.",
+                "options": [
+                  "The right to be elected differs from the right to vote in terms of the age requirement.",
+                  "A citizen declared legally incompetent by a court cannot participate in voting.",
+                  "Civil society organizations advocate for expanding voting rights.",
+                  "Citizenship is a mandatory condition for exercising the right to vote."
+                ],
+                "answerIndex": 3
+              },
+              {
+                "type": "word-bank",
+                "direction": "en-ru",
+                "prompt": "Civil society organizations advocate for expanding voting rights.",
+                "bank": [
+                  "прав",
+                  "расширение",
+                  "за",
+                  "общества",
+                  "Организации",
+                  "избирательных",
+                  "выступают",
+                  "гражданского"
+                ],
+                "answer": [
+                  "Организации",
+                  "гражданского",
+                  "общества",
+                  "выступают",
+                  "за",
+                  "расширение",
+                  "избирательных",
+                  "прав"
+                ]
+              },
+              {
+                "type": "multiple-choice",
+                "direction": "ru-en",
+                "prompt": "Защита права голоса остаётся приоритетом для международного сообщества.",
+                "options": [
+                  "The right to vote is guaranteed to every citizen of the country.",
+                  "A citizen declared legally incompetent by a court cannot participate in voting.",
+                  "Those convicted of serious crimes are temporarily deprived of the right to vote.",
+                  "Protecting the right to vote remains a priority for the international community."
+                ],
+                "answerIndex": 3
+              }
+            ]
           }
         ]
       },
@@ -1366,7 +2738,7 @@
         "lessons": [
           {
             "id": "l2-1",
-            "number": 6,
+            "number": 11,
             "title": "Election Officials & Roles",
             "titleNative": "Обязанности членов комиссии",
             "description": "Roles and responsibilities of polling station staff",
@@ -1644,7 +3016,7 @@
           },
           {
             "id": "l2-2",
-            "number": 7,
+            "number": 12,
             "title": "Polling Station Setup & Logistics",
             "titleNative": "Организация избирательного участка",
             "description": "Preparing and equipping the voting premises",
@@ -1904,7 +3276,7 @@
           },
           {
             "id": "l2-3",
-            "number": 8,
+            "number": 13,
             "title": "Voter Education & Outreach",
             "titleNative": "Информирование избирателей",
             "description": "Public information campaigns and voter outreach",
@@ -2180,7 +3552,7 @@
           },
           {
             "id": "l2-4",
-            "number": 9,
+            "number": 14,
             "title": "Special & Mobile Voting",
             "titleNative": "Специальные формы голосования",
             "description": "Mobile ballot boxes, home voting, and institutional voting",
@@ -2452,7 +3824,7 @@
           },
           {
             "id": "l2-5",
-            "number": 10,
+            "number": 15,
             "title": "Party & Candidate Registration",
             "titleNative": "Регистрация партий и кандидатов",
             "description": "Nomination, signatures, and candidate registration",
@@ -2736,7 +4108,7 @@
         "lessons": [
           {
             "id": "l3-1",
-            "number": 11,
+            "number": 16,
             "title": "Opening the Polling Station",
             "titleNative": "Открытие участка",
             "description": "Morning procedures before voting begins",
@@ -3006,7 +4378,7 @@
           },
           {
             "id": "l3-2",
-            "number": 12,
+            "number": 17,
             "title": "The Voting Process",
             "titleNative": "Процесс голосования",
             "description": "The mechanics of casting a ballot",
@@ -3270,7 +4642,7 @@
           },
           {
             "id": "l3-3",
-            "number": 13,
+            "number": 18,
             "title": "Voter Identification & Verification",
             "titleNative": "Идентификация избирателей",
             "description": "Checking identity documents and preventing fraud",
@@ -3538,7 +4910,7 @@
           },
           {
             "id": "l3-4",
-            "number": 14,
+            "number": 19,
             "title": "Queue Management & Security",
             "titleNative": "Очередь и безопасность",
             "description": "Crowd control and order at the polling station",
@@ -3804,7 +5176,7 @@
           },
           {
             "id": "l3-5",
-            "number": 15,
+            "number": 20,
             "title": "Closing & Counting",
             "titleNative": "Закрытие и подсчёт голосов",
             "description": "End-of-day procedures and the vote count",
@@ -4084,7 +5456,7 @@
         "lessons": [
           {
             "id": "l4-1",
-            "number": 16,
+            "number": 21,
             "title": "Vote Tabulation & Transmission",
             "titleNative": "Табуляция и передача результатов",
             "description": "Summarizing and reporting official results",
@@ -4354,7 +5726,7 @@
           },
           {
             "id": "l4-2",
-            "number": 17,
+            "number": 22,
             "title": "Recounts & Results Disputes",
             "titleNative": "Пересчёт голосов и споры о результатах",
             "description": "Challenging and reviewing vote counts",
@@ -4628,7 +6000,7 @@
           },
           {
             "id": "l4-3",
-            "number": 18,
+            "number": 23,
             "title": "The Electoral Legal Framework",
             "titleNative": "Избирательное законодательство",
             "description": "Constitution, election law, and legal structure",
@@ -4898,7 +6270,7 @@
           },
           {
             "id": "l4-4",
-            "number": 19,
+            "number": 24,
             "title": "International Standards & Commitments",
             "titleNative": "Международные стандарты",
             "description": "OSCE commitments and democratic election principles",
@@ -5176,7 +6548,7 @@
           },
           {
             "id": "l4-5",
-            "number": 20,
+            "number": 25,
             "title": "Complaints, Appeals & Violations",
             "titleNative": "Жалобы, апелляции и нарушения",
             "description": "The dispute-resolution process and election violations",
@@ -5460,7 +6832,7 @@
         "lessons": [
           {
             "id": "l5-1",
-            "number": 21,
+            "number": 26,
             "title": "Methodology & Code of Conduct",
             "titleNative": "Методология наблюдения и кодекс поведения",
             "description": "How observers work and the rules that bind them",
@@ -5728,7 +7100,7 @@
           },
           {
             "id": "l5-2",
-            "number": 22,
+            "number": 27,
             "title": "Meetings with Stakeholders",
             "titleNative": "Встречи с заинтересованными сторонами",
             "description": "Engaging civil society, parties, media, and authorities",
@@ -6006,7 +7378,7 @@
           },
           {
             "id": "l5-3",
-            "number": 23,
+            "number": 28,
             "title": "Interim Reports & Preliminary Statements",
             "titleNative": "Промежуточные отчёты и заявления",
             "description": "Documenting findings and communicating conclusions",
@@ -6280,7 +7652,7 @@
           },
           {
             "id": "l5-4",
-            "number": 24,
+            "number": 29,
             "title": "Security & Logistics",
             "titleNative": "Безопасность и логистика",
             "description": "Field safety, transport, and mission logistics",
@@ -6558,7 +7930,7 @@
           },
           {
             "id": "l5-5",
-            "number": 25,
+            "number": 30,
             "title": "Long-Term vs Short-Term Observation",
             "titleNative": "Долгосрочное и краткосрочное наблюдение",
             "description": "How the two observer roles differ and complement each other",
@@ -6840,7 +8212,7 @@
         "lessons": [
           {
             "id": "l6-1",
-            "number": 26,
+            "number": 31,
             "title": "Media Monitoring",
             "titleNative": "Мониторинг средств массовой информации",
             "description": "Tracking fairness and balance in press coverage",
@@ -7120,7 +8492,7 @@
           },
           {
             "id": "l6-2",
-            "number": 27,
+            "number": 32,
             "title": "Campaign Finance Monitoring",
             "titleNative": "Мониторинг финансирования избирательных кампаний",
             "description": "Tracking donations, spending limits, and transparency",
@@ -7388,7 +8760,7 @@
           },
           {
             "id": "l6-3",
-            "number": 28,
+            "number": 33,
             "title": "Gender Equality in Elections",
             "titleNative": "Гендерное равенство на выборах",
             "description": "Women's representation and participation in the process",
@@ -7664,7 +9036,7 @@
           },
           {
             "id": "l6-4",
-            "number": 29,
+            "number": 34,
             "title": "Disability & Accessibility",
             "titleNative": "Люди с инвалидностью и доступность",
             "description": "Ensuring the process is accessible to everyone",
@@ -7936,7 +9308,7 @@
           },
           {
             "id": "l6-5",
-            "number": 30,
+            "number": 35,
             "title": "New Voting Technologies",
             "titleNative": "Новые технологии голосования",
             "description": "Electronic voting, e-tabulation, and cybersecurity",
