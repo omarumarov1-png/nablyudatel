@@ -10,6 +10,16 @@
   const ADVANCE_DELAY_CORRECT = 900;
   const ADVANCE_DELAY_WRONG = 5000;
 
+  // Mobile Safari keeps a tapped <button> focused, which leaves the
+  // browser's focus outline stuck on the last-tapped tile/option even
+  // though the user just touched it, not navigated with a keyboard.
+  // event.detail is 0 for a keyboard-triggered click and >=1 for a real
+  // pointer/touch click, so this only blurs (clears the ring) on taps.
+  document.addEventListener("click", e => {
+    const btn = e.target.closest("button");
+    if (btn && e.detail !== 0) btn.blur();
+  });
+
   const screenEl = document.getElementById("screen");
   const streakEl = document.getElementById("streakCount");
   const xpEl = document.getElementById("xpCount");
@@ -122,6 +132,20 @@
   }
   document.addEventListener("pointerdown", warmAudio, { once: true, passive: true });
 
+  // iOS Safari leaves the speech engine "asleep" until it's spoken from
+  // inside a real user gesture at least once; a silent, near-empty
+  // utterance on the very first tap wakes it up so the first real answer
+  // isn't the one that gets silently dropped.
+  function warmSpeech() {
+    if (!("speechSynthesis" in window)) return;
+    try {
+      const u = new SpeechSynthesisUtterance(" ");
+      u.volume = 0;
+      window.speechSynthesis.speak(u);
+    } catch (e) { /* speech unavailable */ }
+  }
+  document.addEventListener("pointerdown", warmSpeech, { once: true, passive: true });
+
   // ---------- text-to-speech ----------
   // Ranked by how natural/pleasant they sound among voices that ship free
   // with the browser/OS (no paid API, no extra download): Chrome's Google
@@ -164,16 +188,24 @@
     window.speechSynthesis.onvoiceschanged = refreshVoices;
   }
   const SPEECH_RATE = 0.85;
+  let _currentUtterance = null;
   function speak(text, lang, onEnd) {
     if (soundMuted || !("speechSynthesis" in window)) { if (onEnd) onEnd(); return; }
     try {
-      window.speechSynthesis.cancel();
+      // Calling cancel() immediately before speak() is a well-known iOS
+      // Safari trap: the following speak() can get silently dropped. Only
+      // cancel when something is actually queued/playing.
+      if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
+        window.speechSynthesis.cancel();
+      }
       const u = new SpeechSynthesisUtterance(text);
       u.lang = lang;
       u.rate = SPEECH_RATE;
       const voice = lang === "ru-RU" ? _preferredVoiceRu : _preferredVoiceEn;
       if (voice) u.voice = voice;
       if (onEnd) { u.onend = onEnd; u.onerror = onEnd; }
+      _currentUtterance = u; // keep a live reference — some browsers silently
+      // drop speech if the utterance is garbage-collected before it plays
       window.speechSynthesis.speak(u);
     } catch (e) { if (onEnd) onEnd(); }
   }
