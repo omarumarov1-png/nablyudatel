@@ -508,7 +508,7 @@
       const isCurrent = !done && !currentAssigned;
       if (isCurrent) currentAssigned = true;
       rowsHtml += `
-        <div class="trail-row ${i % 2 === 1 ? "indent" : ""}">
+        <div class="trail-row">
           <button class="trail-node ${done ? "done" : unlocked ? "unlocked" : "locked"} ${isCurrent ? "current" : ""}" data-lesson="${lesson.id}" ${unlocked ? "" : "disabled"} aria-label="${lesson.title}">
             ${done ? "✓" : unlocked ? lesson.number : "🔒"}
           </button>
