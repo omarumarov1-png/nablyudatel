@@ -164,25 +164,38 @@
   // voices and Edge's neural voices lead, then other common system voices
   // before falling back to anything in that language.
   const VOICE_RANK_EN = [
-    /Google US English/i,
-    /Microsoft (Aria|Jenny|Emma).*(Natural|Online)/i,
+    /Microsoft (Aria|Jenny|Emma)/i,
     /Samantha/i,
+    /Ava|Nicky|Zoe|Allison/i,
+    /Google US English/i,
     /Microsoft Zira/i,
-    /Ava|Nicky|Zoe/i,
-    /Microsoft (David|Mark)/i,
   ];
   const VOICE_RANK_RU = [
-    /Google русский/i,
-    /Microsoft (Svetlana|Dariya).*(Natural|Online)/i,
+    /Microsoft (Svetlana|Dariya)/i,
     /Milena/i,
-    /Microsoft (Irina|Pavel)/i,
-    /Yuri/i,
+    /Google русский/i,
+    /Microsoft Irina/i,
+    /Yuri|Pavel/i,
   ];
   let _voices = [];
   let _preferredVoiceEn = null;
   let _preferredVoiceRu = null;
+  // macOS/iOS ship both a compact default voice and a much better-sounding
+  // "(Enhanced)"/"(Premium)" download of the exact same named voice (e.g.
+  // "Samantha" vs "Samantha (Enhanced)"); Edge similarly tags its neural
+  // voices "(Natural)"/"(Online)". A plain name-only match picks whichever
+  // variant the browser's array happens to list first — often the compact
+  // one — which is how a genuinely natural voice can silently regress to
+  // sounding robotic with zero code change on our end, purely from OS/
+  // browser voice-list ordering. Always prefer ANY high-quality-tier match,
+  // across the whole ranked list, before ever falling back to a bare one.
   function pickVoice(lang, rankList) {
     const pool = _voices.filter(v => v.lang === lang || v.lang.startsWith(lang.slice(0, 2)));
+    const isHighTier = v => /(Enhanced|Premium|Natural|Online)/i.test(v.name);
+    for (const pattern of rankList) {
+      const match = pool.find(v => pattern.test(v.name) && isHighTier(v));
+      if (match) return match;
+    }
     for (const pattern of rankList) {
       const match = pool.find(v => pattern.test(v.name));
       if (match) return match;
@@ -716,10 +729,13 @@
     else if (ex.type === "comprehension") renderComprehension(ex);
   }
 
-  function renderFeedback(correct, correctText, delay) {
+  // showSpeak defaults true — comprehension passes false, since its
+  // correctText is a Russian answer option and the speaker icon was showing
+  // with no wireFeedbackReplay() call ever wiring it up (dead button).
+  function renderFeedback(correct, correctText, delay, showSpeak = true) {
     return `
       <div class="feedback ${correct ? "correct" : "incorrect"}" role="status">
-        <button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">🔊</button>
+        ${showSpeak ? `<button class="speak-btn" id="feedbackSpeakBtn" title="Play pronunciation" aria-label="Play pronunciation">🔊</button>` : ""}
         <div class="feedback-text">
           <div class="title">${correct ? "Correct" : "Not quite"}</div>
           ${correct ? "" : `<div class="detail">${correctText}</div>`}
@@ -1160,7 +1176,7 @@
         btn.classList.add(correct ? "correct" : "incorrect");
         if (!correct) document.querySelector(`#options .option[data-i="${ex.answerIndex}"]`).classList.add("correct");
         afterAnswer(correct);
-        screenEl.insertAdjacentHTML("beforeend", renderFeedback(correct, ex.options[ex.answerIndex]));
+        screenEl.insertAdjacentHTML("beforeend", renderFeedback(correct, ex.options[ex.answerIndex], undefined, false));
         scheduleAdvance(correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG);
       });
     });
