@@ -8,7 +8,7 @@
   const MAX_MISSED = 150;
   const REVISION_SIZE = 20;
   const ADVANCE_DELAY_CORRECT = 900;
-  const ADVANCE_DELAY_WRONG = 5000;
+  const ADVANCE_DELAY_WRONG = 2500;
 
   // Mobile Safari keeps a tapped <button> focused, which leaves the
   // browser's focus outline stuck on the last-tapped tile/option even
@@ -1176,8 +1176,9 @@
         btn.classList.add(correct ? "correct" : "incorrect");
         if (!correct) document.querySelector(`#options .option[data-i="${ex.answerIndex}"]`).classList.add("correct");
         afterAnswer(correct);
-        screenEl.insertAdjacentHTML("beforeend", renderFeedback(correct, ex.options[ex.answerIndex], undefined, false));
-        scheduleAdvance(correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG);
+        const delay = correct ? ADVANCE_DELAY_CORRECT : ADVANCE_DELAY_WRONG;
+        screenEl.insertAdjacentHTML("beforeend", renderFeedback(correct, ex.options[ex.answerIndex], delay, false));
+        scheduleAdvance(delay);
       });
     });
   }
