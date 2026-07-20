@@ -375,6 +375,16 @@
     return progress.completedLessons.includes(flatLessons[flatIndex - 1].id);
   }
   function harvestWords(ex) {
+    // Comprehension exercises (question/options/answerIndex) have no .ru
+    // field at all — ruTokens(undefined) threw synchronously inside
+    // afterAnswer(), which aborted the whole click handler before
+    // scheduleAdvance() ever ran. Since that crash only happens on the
+    // "correct" branch (harvestWords is only called when correct), the
+    // exact symptom was: wrong answers advance fine, a correct answer on a
+    // reading-comprehension question hangs forever. There's no per-item
+    // vocabulary to harvest from a comprehension question anyway, so just
+    // skip it for exercise types that don't carry a .ru sentence.
+    if (!ex.ru) return;
     // Always collect the Russian side — this is a Russian term bank regardless of practice direction.
     const words = ruTokens(ex.ru);
     let added = 0;
